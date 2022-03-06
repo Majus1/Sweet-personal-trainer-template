@@ -1,0 +1,17 @@
+// Custom variables
+
+
+// Custom fonts
+// @font-face {
+//     font-family: Recoleta;
+//     src: url(/fonts/Recoleta/Recoleta-Bold.ttf);
+// }
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// <!-- ::::: Header ::::: -->
+#spt-header {
+    font-family: recoleta;
+    font-weight: 600;
+}
+// <!-- ::::: Header ::::: -->
