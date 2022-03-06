@@ -11961,4 +11961,17 @@ fieldset:disabled .btn {
   font-family: recoleta;
   font-weight: 600;
 }
+
+#hero-section {
+  background-color: #0dcaf0;
+}
+
+#hero-section .type-part,
+#hero-section img {
+  margin-bottom: -46px;
+}
+
+#hero-section img {
+  max-width: 450px;
+}
 /*# sourceMappingURL=style.css.map */

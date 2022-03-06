@@ -9,9 +9,24 @@
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
+
 // <!-- ::::: Header ::::: -->
 #spt-header {
     font-family: recoleta;
     font-weight: 600;
 }
 // <!-- ::::: Header ::::: -->
+
+
+// <!-- ::::: Hero section ::::: -->
+#hero-section {
+    background-color: $info;
+    .type-part,
+    img {
+        margin-bottom: -46px;
+    }
+    img {
+        max-width: 450px;
+    }
+}
+// <!-- ::::: Hero section ::::: -->
