@@ -20,7 +20,9 @@
 
 // <!-- ::::: Hero section ::::: -->
 #hero-section {
-    background-color: $info;
+    background: url("/assets/images/wawes-background-3.jpg");
+    background-size: cover;
+    background-position: center;
     .type-part,
     img {
         margin-bottom: -46px;
