@@ -20,15 +20,13 @@
 
 // <!-- ::::: Hero section ::::: -->
 #hero-section {
-    background: url("/assets/images/wawes-background-3.jpg");
+    background:
+    linear-gradient(60deg, rgba(248,188,75,.7) 0%, rgba(212,61,133,.7) 100%),
+    url('/assets/images/wawes-background-3.jpg');
     background-size: cover;
     background-position: center;
-    .type-part,
     img {
-        margin-bottom: -46px;
-    }
-    img {
-        max-width: 450px;
+        max-width: 650px;
     }
 }
 // <!-- ::::: Hero section ::::: -->

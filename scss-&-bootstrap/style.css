@@ -11963,17 +11963,12 @@ fieldset:disabled .btn {
 }
 
 #hero-section {
-  background: url("/assets/images/wawes-background-3.jpg");
+  background: linear-gradient(60deg, rgba(248, 188, 75, 0.7) 0%, rgba(212, 61, 133, 0.7) 100%), url("/assets/images/wawes-background-3.jpg");
   background-size: cover;
   background-position: center;
 }
 
-#hero-section .type-part,
 #hero-section img {
-  margin-bottom: -46px;
-}
-
-#hero-section img {
-  max-width: 450px;
+  max-width: 650px;
 }
 /*# sourceMappingURL=style.css.map */
