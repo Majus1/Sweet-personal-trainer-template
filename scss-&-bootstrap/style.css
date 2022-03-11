@@ -12069,4 +12069,41 @@ fieldset:disabled .btn {
     color: white;
   }
 }
+
+#feature-card-section {
+  margin-top: 56px;
+}
+
+@media (min-width: 992px) {
+  #feature-card-section {
+    margin-top: 100px;
+  }
+}
+
+#feature-card-section .card-container:nth-of-type(2) .feature-card {
+  background: linear-gradient(60deg, #d43d85 0%, #f8bc4b 100%);
+}
+
+#feature-card-section .feature-card {
+  color: #fff;
+  padding: 16px;
+  background: linear-gradient(60deg, #f8bc4b 0%, #d43d85 100%);
+  min-height: 100%;
+}
+
+#feature-card-section .feature-card span {
+  font-size: 3.125rem;
+}
+
+@media (min-width: 576px) {
+  #feature-card-section .feature-card span {
+    font-size: 5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  #feature-card-section .feature-card span {
+    font-size: 3.125rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
