@@ -11991,7 +11991,7 @@ fieldset:disabled .btn {
 #spt-header {
   font-family: recoleta;
   font-weight: 600;
-  background-color: rgba(255, 0, 255, 0.25);
+  margin-top: -72px;
 }
 
 #hero-section {
@@ -12013,12 +12013,12 @@ fieldset:disabled .btn {
 }
 
 #hero-section img {
-  margin-top: 24px;
+  margin-top: 72px;
 }
 
 @media (min-width: 992px) {
   #hero-section img {
-    margin-top: 48px;
+    margin-top: 120px;
     margin-bottom: -50px;
   }
 }

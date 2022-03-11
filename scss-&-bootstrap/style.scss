@@ -27,7 +27,7 @@ h6 {
 #spt-header {
     font-family: recoleta;
     font-weight: 600;
-    background-color: rgba($color: #FF00FF, $alpha: .25);
+    margin-top: -72px;
 }
 // <!-- ::::: Header ::::: -->
 
@@ -46,9 +46,9 @@ h6 {
         padding-bottom: 0px;
     }
     img {
-        margin-top: 24px;
+        margin-top: 72px;
         @media (min-width: 992px) {
-            margin-top: 48px;
+            margin-top: 120px;
             margin-bottom: -50px;
         }
     }
