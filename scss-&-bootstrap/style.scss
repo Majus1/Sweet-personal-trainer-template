@@ -3,6 +3,8 @@ $primary: #D43D85;
 $secondary: #4A4A4A;
 $dark: #2F2F2F;
 $white: #fff;
+// Custom color variables
+
 
 // Custom font variables
 h1,
@@ -14,6 +16,16 @@ h6 {
     font-family: recoleta;
     font-weight: 600 !important;
 }
+
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.display-5,
+.display-6 {
+    color: red
+}
+// Custom font variables
 
 // Custom fonts
 // @font-face {
@@ -116,3 +128,7 @@ h6 {
     }
 }
 // <!-- ::::: Feature cards ::::: -->
+
+
+// <!-- ::::: Paint points ::::: -->
+// <!-- ::::: Paint points ::::: -->
