@@ -19,7 +19,9 @@ h6,
 .display-4,
 .display-5,
 .display-6 {
-  color: red;
+  color: #D43D85;
+  font-family: 'Anton', sans-serif;
+  font-weight: 500 !important;
 }
 
 /*!
@@ -12080,7 +12082,19 @@ fieldset:disabled .btn {
 }
 
 #feature-card-section {
-  margin-top: 56px;
+  margin-top: 100px;
+}
+
+@media (min-width: 576px) {
+  #feature-card-section {
+    margin-top: 72px;
+  }
+}
+
+@media (min-width: 992px) {
+  #feature-card-section {
+    margin-top: 100px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -12114,5 +12128,9 @@ fieldset:disabled .btn {
   #feature-card-section .feature-card span {
     font-size: 3.125rem;
   }
+}
+
+.pain-point-section {
+  margin-top: 72px;
 }
 /*# sourceMappingURL=style.css.map */
