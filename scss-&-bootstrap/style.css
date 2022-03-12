@@ -12153,4 +12153,24 @@ fieldset:disabled .btn {
   opacity: 100%;
   width: 100px;
 }
+
+#testimonisals {
+  background: aqua;
+}
+
+.testimonial_container {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.43);
+          box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.43);
+}
+
+.testimonial_container .star-container {
+  width: 115px;
+}
+
+.testimonial_container hr {
+  border: 1px solid #2F2F2F;
+  opacity: 100%;
+  width: 100px;
+}
 /*# sourceMappingURL=style.css.map */
