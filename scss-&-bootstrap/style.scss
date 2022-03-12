@@ -143,3 +143,26 @@ h6 {
     margin-top: 72px;
 }
 // <!-- ::::: Paint points ::::: -->
+
+
+// <!-- ::::: Trainer stats ::::: -->
+#trainer-stats {
+    background:
+    linear-gradient(60deg, rgba(248,188,75,.7) 0%, rgba(212,61,133,.7) 100%),
+    url('/assets/images/trainer-fact_background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 72px;
+    span {
+        font-size: 4.5rem;
+        font-weight: 500;
+        font-family: 'Anton', sans-serif;
+    }
+    hr {
+        border: 2px solid $primary;
+        opacity: 100%;
+        width: 100px;
+    }
+}
+// <!-- ::::: Trainer stats ::::: -->

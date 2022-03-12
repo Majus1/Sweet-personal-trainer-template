@@ -12133,4 +12133,24 @@ fieldset:disabled .btn {
 .pain-point-section {
   margin-top: 72px;
 }
+
+#trainer-stats {
+  background: linear-gradient(60deg, rgba(248, 188, 75, 0.7) 0%, rgba(212, 61, 133, 0.7) 100%), url("/assets/images/trainer-fact_background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 72px;
+}
+
+#trainer-stats span {
+  font-size: 4.5rem;
+  font-weight: 500;
+  font-family: 'Anton', sans-serif;
+}
+
+#trainer-stats hr {
+  border: 2px solid #D43D85;
+  opacity: 100%;
+  width: 100px;
+}
 /*# sourceMappingURL=style.css.map */
