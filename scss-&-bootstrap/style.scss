@@ -170,11 +170,25 @@ h6 {
 // <!-- ::::: Testimonials ::::: -->
 #testimonisals {
     background: aqua;
+    padding-top: 22px;
+}
+.item {
+    background-color: blue;
+}
+.type-section {
+    p {
+        overflow: hidden;
+       text-overflow: ellipsis;
+       display: -webkit-box;
+       -webkit-line-clamp: 3; /* number of lines to show */
+               line-clamp: 3; 
+       -webkit-box-orient: vertical;
+    }
 }
 .testimonial_container {
     background-color: $white;
     -webkit-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.43); 
-        box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.43);
+    box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.43);
     .star-container {
         width: 115px;
     }

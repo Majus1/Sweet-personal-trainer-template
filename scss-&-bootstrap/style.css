@@ -12156,6 +12156,21 @@ fieldset:disabled .btn {
 
 #testimonisals {
   background: aqua;
+  padding-top: 22px;
+}
+
+.item {
+  background-color: blue;
+}
+
+.type-section p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  /* number of lines to show */
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 .testimonial_container {

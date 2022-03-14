@@ -6,6 +6,7 @@ $(document).ready(function () {
     $('.owl-carousel').owlCarousel({
         loop: true,
         responsiveClass: true,
+        nav: false,
         responsive: {
             0: {
                 items: 1,
@@ -16,7 +17,7 @@ $(document).ready(function () {
                 nav: false
             },
             1200: {
-                items: 4,
+                items: 3,
                 nav: false,
                 loop: false
             }
@@ -31,5 +32,6 @@ var testimonials = document.querySelectorAll(".item")
 for (let z = 0; z < testimonials.length; z++) {
     testimonials[z].classList.add("py-4")
     testimonials[z].classList.add("px-3")
+    testimonials[z].classList.add("testimonial_streacher")
 }
 // Stylingy Owl carousel
