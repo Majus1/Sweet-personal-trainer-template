@@ -201,11 +201,18 @@ h6 {
 // <!-- ::::: Testimonials ::::: -->
 
 // <!-- ::::: Testimonial section ::::: -->
-#testimonial-section_1,
-#testimonial-section_2 {
+#testimonial-section_1 {
+    .class-star-row {
+        img {
+            width: 20px!important;
+        }
+    }
     .item {
         background-color: transparent;
         // border-radius: $custon-boredr-radius;
+        hr {
+            width: 120px;
+        }
     }
     .testimonial-card {
         background-color: white;
@@ -237,7 +244,6 @@ h6 {
         text-decoration: none;
     }
 }
-
 
 // <!-- ::: Owl arrow nav styling ::: -->
 .owl-carousel .owl-nav {
@@ -277,7 +283,6 @@ h6 {
     }
 }
 // <!-- ::: Owl arrow nav styling ::: -->
-
 
 // <!-- ::: Modals section ::: -->
 .navigation-controls {
@@ -344,7 +349,7 @@ h6 {
     text-overflow: ellipsis;
     // word-wrap: break-word;
     overflow: hidden;
-    max-height: 10.5em;
+    max-height: 4.5em;
     // line-height: 1.4em;
   }
 // <!-- ::: Modals section ::: -->

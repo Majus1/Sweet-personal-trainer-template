@@ -7,16 +7,19 @@ $(document).ready(function () {
         loop: true,
         responsiveClass: true,
         nav: false,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true,
         responsive: {
             0: {
                 items: 1,
                 nav: false
             },
-            768: {
+            992: {
                 items: 2,
                 nav: false
             },
-            1200: {
+            1600: {
                 items: 3,
                 nav: false,
                 loop: false
