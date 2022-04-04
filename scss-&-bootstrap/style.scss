@@ -3,6 +3,7 @@ $primary: #D43D85;
 $secondary: #4A4A4A;
 $dark: #2F2F2F;
 $white: #fff;
+$gradient-party: linear-gradient(45deg, rgba(248,188,75,.7), rgba(212,61,133,.7));
 // Custom color variables
 
 
@@ -202,13 +203,32 @@ h6 {
 
 // <!-- ::::: Testimonial section ::::: -->
 #testimonial-section_1 {
+    // background animation
+    background-size: 300%;
+    background-position: left;
+    background-image: $gradient-party;
+    transition: background-position 1s;
+    animation: gradient-party-animation 10s infinite;
+
+    @keyframes gradient-party-animation {
+        0% {
+            background-position: left;
+        }
+        50% {
+            background-position: right;
+        }
+        100% {
+            background-position: left;
+        }
+    }
+    // background animation
     .class-star-row {
         img {
             width: 20px!important;
         }
     }
     .item {
-        background-color: transparent;
+        background-color: white;
         // border-radius: $custon-boredr-radius;
         hr {
             width: 120px;
