@@ -12033,6 +12033,10 @@ fieldset:disabled .btn {
   }
 }
 
+button {
+  font-family: 'Anton', sans-serif;
+}
+
 #spt-header {
   font-family: recoleta;
   font-weight: 600;
@@ -12348,5 +12352,13 @@ fieldset:disabled .btn {
   text-overflow: ellipsis;
   overflow: hidden;
   max-height: 4.5em;
+}
+
+#newsletter-section {
+  padding: 72px 0px;
+  background: linear-gradient(60deg, rgba(248, 188, 75, 0.7) 0%, rgba(212, 61, 133, 0.7) 100%), url("/assets/images/newsletter-background_1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 /*# sourceMappingURL=style.css.map */
