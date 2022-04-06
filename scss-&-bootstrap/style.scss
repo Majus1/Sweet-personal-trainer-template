@@ -3,7 +3,7 @@ $primary: #D43D85;
 $secondary: #4A4A4A;
 $dark: #2F2F2F;
 $white: #fff;
-$gradient-party: linear-gradient(45deg, rgba(248,188,75,.7), rgba(212,61,133,.7));
+$gradient-party: linear-gradient(45deg, rgba(248, 188, 75, .7), rgba(212, 61, 133, .7));
 // Custom color variables
 
 
@@ -28,6 +28,7 @@ h6 {
     font-family: 'Anton', sans-serif;
     font-weight: 500 !important;
 }
+
 // Custom font variables
 
 // Custom fonts
@@ -39,57 +40,94 @@ h6 {
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
 
+.background-party {
+    // background animation
+    background-size: 300%;
+    background-position: left;
+    background-image: $gradient-party;
+    transition: background-position 1s;
+    animation: gradient-party-animation 10s infinite;
+
+    @keyframes gradient-party-animation {
+        0% {
+            background-position: left;
+        }
+
+        50% {
+            background-position: right;
+        }
+
+        100% {
+            background-position: left;
+        }
+    }
+
+    // background animation
+}
+
 // <!-- ::::: Header ::::: -->
 #spt-header {
     font-family: recoleta;
     font-weight: 600;
     margin-top: -72px;
 }
+
 // <!-- ::::: Header ::::: -->
 
 
 // <!-- ::::: Hero section ::::: -->
 #hero-section {
     background:
-    linear-gradient(60deg, rgba(248,188,75,.7) 0%, rgba(212,61,133,.7) 100%),
-    url('/assets/images/wawes-background-3.jpg');
+        linear-gradient(60deg, rgba(248, 188, 75, .7) 0%, rgba(212, 61, 133, .7) 100%),
+        url('/assets/images/wawes-background-3.jpg');
     background-size: cover;
     background-position: center;
+
     @media (min-width: 576px) {
         padding-bottom: 48px;
     }
+
     @media (min-width: 992px) {
         padding-bottom: 0px;
     }
+
     img {
         margin-top: 72px;
+
         @media (min-width: 992px) {
             margin-top: 120px;
             margin-bottom: -50px;
         }
     }
+
     .type-part_container {
         margin-top: 16px;
         margin-bottom: -24px;
         background-color: #fff;
-        -webkit-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.43); 
-        box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.43);
+        -webkit-box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.43);
+        box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.43);
+
         p {
             color: $secondary;
+
             @media (min-width: 992px) {
                 color: white;
             }
         }
+
         h1 {
             color: $dark;
+
             @media (min-width: 992px) {
                 color: white;
             }
         }
+
         @media (min-width: 576px) {
             margin-left: -100px;
             margin-top: 200px;
         }
+
         @media (min-width: 992px) {
             margin-left: 24px;
             margin-top: 0;
@@ -100,42 +138,52 @@ h6 {
         }
     }
 }
+
 // <!-- ::::: Hero section ::::: -->
 
 
 // <!-- ::::: Feature cards ::::: -->
 #feature-card-section {
     margin-top: 100px;
+
     @media (min-width: 576px) {
         margin-top: 72px;
     }
+
     @media (min-width: 992px) {
         margin-top: 100px;
     }
+
     @media (min-width: 992px) {
         margin-top: 100px;
     }
+
     .card-container:nth-of-type(2) {
         .feature-card {
-            background: linear-gradient(60deg, rgba(212,61,133,1.0) 0%, rgba(248,188,75,1.0) 100%);
+            background: linear-gradient(60deg, rgba(212, 61, 133, 1.0) 0%, rgba(248, 188, 75, 1.0) 100%);
         }
     }
+
     .feature-card {
         color: $white;
         padding: 16px;
-        background: linear-gradient(60deg, rgba(248,188,75,1.0) 0%, rgba(212,61,133,1.0) 100%);
+        background: linear-gradient(60deg, rgba(248, 188, 75, 1.0) 0%, rgba(212, 61, 133, 1.0) 100%);
         min-height: 100%;
+
         span {
             font-size: 3.125rem;
+
             @media (min-width: 576px) {
                 font-size: 5rem;
             }
+
             @media (min-width: 768px) {
                 font-size: 3.125rem;
             }
         }
     }
 }
+
 // <!-- ::::: Feature cards ::::: -->
 
 
@@ -143,29 +191,33 @@ h6 {
 .pain-point-section {
     margin-top: 72px;
 }
+
 // <!-- ::::: Paint points ::::: -->
 
 
 // <!-- ::::: Trainer stats ::::: -->
 #trainer-stats {
     background:
-    linear-gradient(60deg, rgba(248,188,75,.7) 0%, rgba(212,61,133,.7) 100%),
-    url('/assets/images/trainer-fact_background.jpg');
+        linear-gradient(60deg, rgba(248, 188, 75, .7) 0%, rgba(212, 61, 133, .7) 100%),
+        url('/assets/images/trainer-fact_background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 72px;
+
     span {
         font-size: 4.5rem;
         font-weight: 500;
         font-family: 'Anton', sans-serif;
     }
+
     hr {
         border: 2px solid $primary;
         opacity: 100%;
         width: 100px;
     }
 }
+
 // <!-- ::::: Trainer stats ::::: -->
 
 // <!-- ::::: Testimonials ::::: -->
@@ -203,56 +255,46 @@ h6 {
 
 // <!-- ::::: Testimonial section ::::: -->
 #testimonial-section_1 {
-    // background animation
-    background-size: 300%;
-    background-position: left;
-    background-image: $gradient-party;
-    transition: background-position 1s;
-    animation: gradient-party-animation 10s infinite;
-
-    @keyframes gradient-party-animation {
-        0% {
-            background-position: left;
-        }
-        50% {
-            background-position: right;
-        }
-        100% {
-            background-position: left;
-        }
-    }
-    // background animation
     .class-star-row {
         img {
-            width: 20px!important;
+            width: 20px !important;
         }
     }
+
     .item {
         background-color: white;
+
         // border-radius: $custon-boredr-radius;
         hr {
             width: 120px;
         }
     }
+
     .testimonial-card {
         background-color: white;
         // border-radius: $custon-boredr-radius;
         border: none;
     }
+
     .card-title {
         // color: $jet;
     }
+
     .card-body {
         padding: 30px 20px 30px 20px;
     }
+
     .card-text {
         margin-bottom: 20px;
     }
+
     .card-secondary-title {
         // color: $davys-grey;
     }
+
     .user-info-section {
         margin-bottom: 20px;
+
         img {
             width: 80px;
             border-radius: 50%;
@@ -260,6 +302,7 @@ h6 {
 
         }
     }
+
     a {
         text-decoration: none;
     }
@@ -270,43 +313,51 @@ h6 {
     overflow: hidden;
     height: 0px;
 }
+
 .owl-carousel .nav-button {
     height: 45px;
     width: 45px;
     cursor: pointer;
     position: absolute;
     top: 190px !important;
-    border-radius: 50%!important;
+    border-radius: 50% !important;
 }
+
 .owl-carousel .owl-prev.disabled,
 .owl-carousel .owl-next.disabled {
     pointer-events: none;
     opacity: 0.25;
 }
+
 .owl-carousel .owl-prev {
     left: -55px;
 }
+
 .owl-carousel .owl-next {
     right: -55px;
 }
+
 .nav-button {
-    background: rgba(179, 179, 179, 0.2)!important;
-    color: white!important;
-    display: none!important;
-    justify-content: center!important;
-    align-items: baseline!important;
-    font-size: 30px!important;
-    line-height: 30px!important;
+    background: rgba(179, 179, 179, 0.2) !important;
+    color: white !important;
+    display: none !important;
+    justify-content: center !important;
+    align-items: baseline !important;
+    font-size: 30px !important;
+    line-height: 30px !important;
     padding-top: 20px;
+
     @media (min-width: 1300px) {
-        display: flex!important;
+        display: flex !important;
     }
 }
+
 // <!-- ::: Owl arrow nav styling ::: -->
 
 // <!-- ::: Modals section ::: -->
 .navigation-controls {
     display: none;
+
     @media (min-width: 687px) {
         display: block;
     }
@@ -314,9 +365,11 @@ h6 {
 
 .modal-dialog {
     margin-top: 72px;
+
     @media (min-width: 576px) {
         margin-top: 200px;
     }
+
     @media (min-width: 992px) {
         margin-top: 265px;
     }
@@ -328,20 +381,26 @@ h6 {
         // border-radius: $custon-boredr-radius;
         border: none;
     }
+
     .card-title {
         // color: $jet;
     }
+
     .card-body {
         padding: 30px 20px 30px 20px;
     }
+
     .card-text {
         margin-bottom: 20px;
     }
+
     .card-secondary-title {
         // color: $davys-grey;
     }
+
     .user-info-section {
         margin-bottom: 20px;
+
         img {
             width: 80px;
             border-radius: 50%;
@@ -349,9 +408,11 @@ h6 {
 
         }
     }
+
     a {
         text-decoration: none;
     }
+
     button {
         pointer-events: default;
     }
@@ -365,12 +426,14 @@ h6 {
 }
 
 .max-lines {
-    display: block;/* or inline-block */
+    display: block;
+    /* or inline-block */
     text-overflow: ellipsis;
     // word-wrap: break-word;
     overflow: hidden;
     max-height: 4.5em;
     // line-height: 1.4em;
-  }
+}
+
 // <!-- ::: Modals section ::: -->
 // <!-- ::::: Testimonial section ::::: -->

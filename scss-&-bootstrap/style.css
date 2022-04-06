@@ -11999,6 +11999,40 @@ fieldset:disabled .btn {
   }
 }
 
+.background-party {
+  background-size: 300%;
+  background-position: left;
+  background-image: linear-gradient(45deg, rgba(248, 188, 75, 0.7), rgba(212, 61, 133, 0.7));
+  -webkit-transition: background-position 1s;
+  transition: background-position 1s;
+  -webkit-animation: gradient-party-animation 10s infinite;
+          animation: gradient-party-animation 10s infinite;
+}
+
+@-webkit-keyframes gradient-party-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+@keyframes gradient-party-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
 #spt-header {
   font-family: recoleta;
   font-weight: 600;
@@ -12152,40 +12186,6 @@ fieldset:disabled .btn {
   border: 2px solid #D43D85;
   opacity: 100%;
   width: 100px;
-}
-
-#testimonial-section_1 {
-  background-size: 300%;
-  background-position: left;
-  background-image: linear-gradient(45deg, rgba(248, 188, 75, 0.7), rgba(212, 61, 133, 0.7));
-  -webkit-transition: background-position 1s;
-  transition: background-position 1s;
-  -webkit-animation: gradient-party-animation 10s infinite;
-          animation: gradient-party-animation 10s infinite;
-}
-
-@-webkit-keyframes gradient-party-animation {
-  0% {
-    background-position: left;
-  }
-  50% {
-    background-position: right;
-  }
-  100% {
-    background-position: left;
-  }
-}
-
-@keyframes gradient-party-animation {
-  0% {
-    background-position: left;
-  }
-  50% {
-    background-position: right;
-  }
-  100% {
-    background-position: left;
-  }
 }
 
 #testimonial-section_1 .class-star-row img {
