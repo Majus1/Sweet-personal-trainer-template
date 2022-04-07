@@ -12052,6 +12052,10 @@ button {
   opacity: 75%;
 }
 
+#spt-header .custom-toggler.navbar-toggler {
+  border-color: red !important;
+}
+
 #spt-header {
   position: fixed;
   top: 0;

@@ -85,6 +85,10 @@ button {
     a:hover {
         opacity: 75%;
     }
+
+    .custom-toggler.navbar-toggler {
+        border-color: red!important;
+    }
 }
 // scrollable header
 #spt-header {
