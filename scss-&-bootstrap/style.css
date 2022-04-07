@@ -12167,14 +12167,9 @@ button {
   }
 }
 
-#feature-card-section .card-container:nth-of-type(2) .feature-card {
-  background: linear-gradient(60deg, #d43d85 0%, #f8bc4b 100%);
-}
-
 #feature-card-section .feature-card {
   color: #fff;
   padding: 16px;
-  background: linear-gradient(60deg, #f8bc4b 0%, #d43d85 100%);
   min-height: 100%;
 }
 
@@ -12195,7 +12190,8 @@ button {
 }
 
 .pain-point-section {
-  margin-top: 72px;
+  margin-top: 120px;
+  margin-bottom: 120px;
 }
 
 #trainer-stats {

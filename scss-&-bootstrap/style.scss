@@ -190,16 +190,9 @@ button {
         margin-top: 100px;
     }
 
-    .card-container:nth-of-type(2) {
-        .feature-card {
-            background: linear-gradient(60deg, rgba(212, 61, 133, 1.0) 0%, rgba(248, 188, 75, 1.0) 100%);
-        }
-    }
-
     .feature-card {
         color: $white;
         padding: 16px;
-        background: linear-gradient(60deg, rgba(248, 188, 75, 1.0) 0%, rgba(212, 61, 133, 1.0) 100%);
         min-height: 100%;
 
         span {
@@ -221,7 +214,8 @@ button {
 
 // <!-- ::::: Paint points ::::: -->
 .pain-point-section {
-    margin-top: 72px;
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
 
 // <!-- ::::: Paint points ::::: -->
