@@ -12002,7 +12002,7 @@ fieldset:disabled .btn {
 .background-party {
   background-size: 300%;
   background-position: left;
-  background-image: linear-gradient(45deg, rgba(248, 188, 75, 0.7), rgba(212, 61, 133, 0.7));
+  background-image: linear-gradient(45deg, #f8bc4b, #d43d85);
   -webkit-transition: background-position 1s;
   transition: background-position 1s;
   -webkit-animation: gradient-party-animation 10s infinite;
@@ -12040,7 +12040,33 @@ button {
 #spt-header {
   font-family: recoleta;
   font-weight: 600;
-  margin-top: -72px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+#spt-header a {
+  color: white;
+}
+
+#spt-header a:hover {
+  opacity: 75%;
+}
+
+#spt-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  z-index: 100;
+}
+
+#spt-header .navbar-toggler {
+  border: none !important;
+}
+
+#spt-header.hide {
+  top: -65px !important;
 }
 
 #hero-section {

@@ -3,7 +3,7 @@ $primary: #D43D85;
 $secondary: #4A4A4A;
 $dark: #2F2F2F;
 $white: #fff;
-$gradient-party: linear-gradient(45deg, rgba(248, 188, 75, .7), rgba(212, 61, 133, .7));
+$gradient-party: linear-gradient(45deg, rgba(248, 188, 75, 1), rgba(212, 61, 133, 1));
 // Custom color variables
 
 
@@ -52,29 +52,58 @@ h6 {
         0% {
             background-position: left;
         }
+
         50% {
             background-position: right;
         }
+
         100% {
             background-position: left;
         }
     }
 }
+
 // background animation
 
 // Input overrides
 button {
     font-family: 'Anton', sans-serif;
 }
+
 // Input overrides
 
 // <!-- ::::: Header ::::: -->
 #spt-header {
     font-family: recoleta;
     font-weight: 600;
-    margin-top: -72px;
+    transition: all .3s ease;
+
+    a {
+        color: white;
+    }
+
+    a:hover {
+        opacity: 75%;
+    }
+}
+// scrollable header
+#spt-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: all .3s ease;
+    z-index: 100;
+
+    .navbar-toggler {
+        border: none !important;
+    }
 }
 
+#spt-header.hide {
+    top: -65px!important;
+}
+
+// scrollable header
 // <!-- ::::: Header ::::: -->
 
 
@@ -418,6 +447,7 @@ button {
     background-repeat: no-repeat;
     background-position: center;
 }
+
 // <!-- ::::: Newsletter ::::: -->
 
 // <!-- ::::: Footer ::::: -->
