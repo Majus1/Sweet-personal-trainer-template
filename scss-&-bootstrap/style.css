@@ -12070,7 +12070,7 @@ button {
 }
 
 #hero-section {
-  background: linear-gradient(60deg, rgba(248, 188, 75, 0.7) 0%, rgba(212, 61, 133, 0.7) 100%), url("/assets/images/wawes-background-3.jpg");
+  background: linear-gradient(60deg, rgba(248, 188, 75, 0.7) 0%, rgba(212, 61, 133, 0.7) 100%), url("../assets/images/wawes-background-3.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -12195,7 +12195,7 @@ button {
 }
 
 #trainer-stats {
-  background: linear-gradient(60deg, rgba(248, 188, 75, 0.7) 0%, rgba(212, 61, 133, 0.7) 100%), url("/assets/images/trainer-fact_background.jpg");
+  background: linear-gradient(60deg, rgba(248, 188, 75, 0.7) 0%, rgba(212, 61, 133, 0.7) 100%), url("../assets/images/trainer-fact_background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -12378,7 +12378,7 @@ button {
 
 #newsletter-section {
   padding: 72px 0px;
-  background: linear-gradient(60deg, rgba(248, 188, 75, 0.7) 0%, rgba(212, 61, 133, 0.7) 100%), url("/assets/images/newsletter-background_1.jpg");
+  background: linear-gradient(60deg, rgba(248, 188, 75, 0.7) 0%, rgba(212, 61, 133, 0.7) 100%), url("../assets/images/newsletter-background_1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
