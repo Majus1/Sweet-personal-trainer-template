@@ -7,17 +7,6 @@ $gradient-party: linear-gradient(45deg, rgba(248, 188, 75, 1), rgba(212, 61, 133
 // Custom color variables
 
 
-// Custom font variables
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: recoleta;
-    font-weight: 600 !important;
-}
-
 .display-1,
 .display-2,
 .display-3,
@@ -33,11 +22,22 @@ h6 {
 
 // Custom fonts
 // @font-face {
-//     font-family: Recoleta;
+//     font-family: Recoleta;sto
 //     src: url(/fonts/Recoleta/Recoleta-Bold.ttf);
 // }
 
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node-modules/bootstrap/scss/bootstrap.scss";
+
+// Custom font variables
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: recoleta;
+    font-weight: 600 !important;
+}
 
 
 // background animation
@@ -270,9 +270,6 @@ button {
         border: none;
     }
 
-    .card-title {
-        // color: $jet;
-    }
 
     .card-body {
         padding: 30px 20px 30px 20px;
@@ -280,10 +277,6 @@ button {
 
     .card-text {
         margin-bottom: 20px;
-    }
-
-    .card-secondary-title {
-        // color: $davys-grey;
     }
 
     .user-info-section {
@@ -376,20 +369,12 @@ button {
         border: none;
     }
 
-    .card-title {
-        // color: $jet;
-    }
-
     .card-body {
         padding: 30px 20px 30px 20px;
     }
 
     .card-text {
         margin-bottom: 20px;
-    }
-
-    .card-secondary-title {
-        // color: $davys-grey;
     }
 
     .user-info-section {
