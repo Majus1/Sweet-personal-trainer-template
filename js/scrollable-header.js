@@ -61,15 +61,3 @@ console.log("scrollable-header.js is linked");
     };
     window.addEventListener("scroll", checkScroll);
 })();
-
-function disableScroll() {
-    // Disables scroll on click
-    let bodyWithScroll = document.querySelector("body");
-    if (bodyWithScroll.className == "stop-scroll") {
-        console.log("stop-scroll class removed");
-        bodyWithScroll.classList.remove("stop-scroll");
-    } else {
-        console.log("stop-scroll class added");
-        bodyWithScroll.classList.add("stop-scroll");
-    }
-};
