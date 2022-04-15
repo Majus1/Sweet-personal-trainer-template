@@ -12043,6 +12043,11 @@ button {
   top: -65px !important;
 }
 
+.stop-scroll {
+  scroll-behavior: none;
+  overflow: hidden;
+}
+
 #hero-section {
   background: linear-gradient(60deg, rgba(248, 188, 75, 0.7) 0%, rgba(212, 61, 133, 0.7) 100%), url("../assets/images/wawes-background-3.jpg");
   background-size: cover;
