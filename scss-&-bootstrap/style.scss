@@ -7,17 +7,6 @@ $gradient-party: linear-gradient(45deg, rgba(248, 188, 75, 1), rgba(212, 61, 133
 // Custom color variables
 
 
-// Custom font variables
-// h1,
-// h2,
-// h3,
-// h4,
-// h5,
-// h6 {
-//     font-family: recoleta;
-//     font-weight: 600 !important;
-// }
-
 .display-1,
 .display-2,
 .display-3,
@@ -38,6 +27,17 @@ $gradient-party: linear-gradient(45deg, rgba(248, 188, 75, 1), rgba(212, 61, 133
 // }
 
 @import "../node-modules/bootstrap/scss/bootstrap.scss";
+
+// Custom font variables
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: recoleta;
+    font-weight: 600 !important;
+}
 
 
 // background animation

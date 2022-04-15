@@ -11968,6 +11968,11 @@ fieldset:disabled .btn {
   }
 }
 
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-family: recoleta;
+  font-weight: 600 !important;
+}
+
 .background-party {
   background-size: 300%;
   background-position: left;
