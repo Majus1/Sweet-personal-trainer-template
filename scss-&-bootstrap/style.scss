@@ -1,9 +1,9 @@
 // Custom color variables
-$primary: #D43D85;
+$primary: #ef6bab;
 $secondary: #4A4A4A;
 $dark: #2F2F2F;
 $white: #fff;
-$gradient-party: linear-gradient(45deg, rgba(248, 188, 75, 1), rgba(212, 61, 133, 1));
+$gradient-party: linear-gradient(45deg, rgba(248, 188, 75, 1), rgba(239, 107, 171, 1));
 // Custom color variables
 
 
@@ -111,7 +111,7 @@ button {
 // <!-- ::::: Hero section ::::: -->
 #hero-section {
     background:
-        linear-gradient(60deg, rgba(248, 188, 75, .7) 0%, rgba(212, 61, 133, .7) 100%),
+        linear-gradient(60deg, rgba(248, 188, 75, .7) 0%, rgba(239, 107, 171, .7) 100%),
         url('../assets/images/wawes-background-3.jpg');
     background-size: cover;
     background-position: center;
@@ -225,7 +225,7 @@ button {
 // <!-- ::::: Trainer stats ::::: -->
 #trainer-stats {
     background:
-        linear-gradient(60deg, rgba(248, 188, 75, .7) 0%, rgba(212, 61, 133, .7) 100%),
+        linear-gradient(60deg, rgba(248, 188, 75, .7) 0%, rgba(239, 107, 171, .7) 100%),
         url('../assets/images/trainer-fact_background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -421,7 +421,7 @@ button {
 #newsletter-section {
     padding: 72px 0px;
     background:
-        linear-gradient(60deg, rgba(248, 188, 75, .7) 0%, rgba(212, 61, 133, .7) 100%),
+        linear-gradient(60deg, rgba(248, 188, 75, .7) 0%, rgba(239, 107, 171, .7) 100%),
         url('../assets/images/newsletter-background_1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
